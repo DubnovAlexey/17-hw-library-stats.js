@@ -2,7 +2,7 @@ const library = [];
 
 // --- НОВАЯ ФУНКЦИЯ: ОБНОВЛЕНИЕ СТАТИСТИКИ ---
 function updateStats() {
-    const years = library.map(book => book.year);
+    const years = library.map(book => +book.year);
     const total = library.length;
 
     // Общее количество книг
