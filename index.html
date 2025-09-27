@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Intro 4</title>
+    <script src="./utils.js" defer></script>
+    <script src="./homework.js" defer></script>
+</head>
+<body>
+<div>
+    <label>ISBN:
+        <input type="text" id="isbn">
+    </label>
+    <label>
+        Title:
+        <input type="text" id="title">
+    </label>
+    <label>Author:
+        <input type="text" id="author">
+    </label>
+    <label>Year of publishing:
+        <input type="number" id="year">
+    </label>
+    <button id="addBook">Add book</button>
+</div>
+<h1>List of books</h1>
+<ol id="result"></ol>
+<!-- TODO Show books stats: average, min, max, years of publishing and total books -->
+<div id ="stats">
+    <h2>Library Statistics</h2>
+    <p>Total books: <span id = "totalBooks">0</span></p>
+    <p>Average year of publishing: <span id = "avgYear">N/A</span></p>
+    <p>Earliest year: <span id = "minYear"></span></p>
+    <p>Latest year: <span id = "maxYear"></span></p>
+</div>
+
+</body>
+</html>
